@@ -22,10 +22,14 @@ Biometrics: expo-local-authentication for secure access.
 
 UI: Custom-built components with a focus on accessibility (large fonts, high contrast).
 Getting Started
+
 1.Clone the repository:
+
 2.Navigate to the project directory
+
 3.Install dependencies:
   npm install
+  
 4.Run the application:
   npx expo start
 
