@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# MedTracker - An Intelligent Medication Adherence App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React%20Native-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-%23000020.svg?style=for-the-badge&logo=expo&logoColor=white)
 
-## Get started
+An accessible, cross-platform medication management app designed to improve adherence for vulnerable users through smart, multi-sensory reminders, caregiver alerts, and predictive analytics.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## The Problem
 
-2. Start the app
+Medication non-adherence is a critical barrier to effective healthcare, particularly for the elderly, those with low literacy, or patients managing complex schedules. Traditional reminder apps often fail to address the core accessibility and support system challenges these users face. MedTracker was built to bridge this gap.
 
-   ```bash
-    npx expo start
-   ```
+## ✨ Key Features
 
-In the output, you'll find options to open the app in a
+-   **Customizable Schedules:** Easily add medications, dosages, and complex schedules.
+-   **🗣️ Multi-Sensory Reminders:** Reminders are delivered with both clear **visual prompts** and **voice prompts (Text-to-Speech)**.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+-   **🔒 Biometric Security:** Secure the app with on-device Fingerprint or Face Lock.
+-   **✈️ Offline-First Operation:** All core features work perfectly without an internet connection.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack & Architecture
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+-   **Framework:** React Native with Expo
+-   **Language:** TypeScript
+-   **Local Storage:** `@react-native-async-storage/async-storage`
+-   **Notifications:** `expo-notifications`
+-   **Biometrics:** `expo-local-authentication`
